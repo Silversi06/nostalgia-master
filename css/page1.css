@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    position: fixed;
+    top : 0;
+    right: 0;
+    left: 0;
+    text-align: left;
+    margin-left: 0;
+}
+body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+
+@media (max-width:768px){/*폰*/
+    img{
+      margin-left: 30%;
+      
+    }
+    #phon{
+        width: 300px;
+    }
+}
+@media (min-width :768px){ /*태블릿*/
+    body{
+        margin:10%;
+    }
+
+    .summer{
+        position: absolute;
+        top: 0;
+        margin: 100px 550px;
+    }
+
+    .spring{
+        position: absolute;
+        top: 0;
+        margin: 530px 550px;
+    }
+
+    .fall{
+        position: absolute;
+        top: 0;
+        margin: 970px 550px;
+    }
+
+    .winter{
+        position: absolute;
+        top: 0;
+        margin: 1410px 550px;
+    }
+    
+   
+   
+}
+@media(min-width:992px){ /*데스크탑*/
+    body{
+        margin: 2%;
+        
+    }
+    .summer {
+        position: absolute;
+        top: 120px;
+        margin: 0px 590px;
+        /*이미지 크기 조절하기x*/
+        max-width: 80%;
+        height: auto;
+       
+    }
+    .spring {
+        position: absolute;
+        top: 120px;
+        margin: 00px 1000px;
+    }
+    .fall {
+        position: absolute;
+        top: 0px;
+        margin: 600px 590px;
+    }
+    .winter {
+        position: absolute;
+        top: 0px;
+        margin: 600px 1000px;
+    }
+   
+}
+
+.title{
+    line-height:40%;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    top : 30px;
+    right: 0;
+    left: 0;
+    
+}
+button{
+    background-color: white;
+    border: none;
+    align-items: center;
+    padding: 10;
+}

@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .title{
+    line-height:40%;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    top : 30px;
+    right: 0;
+    left: 0;
+    
+}
+
+hr{
+    position: fixed;
+    top : 0;
+    right: 0;
+    left: 0;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+@media all and (max-width:767px){/*폰*/
+    body{
+        margin: 2%;
+    }
+    .text1{
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+    img {
+        height:80%;
+        width:80%;
+    }
+    .hand{
+        position: absolute;
+        width: 50%;
+         height: 100;
+         top: 70%;
+        left: 60%;
+        
+     }
+     .btn1{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 80%;
+         top: 25%;
+        left: 10%;
+     }
+     .btn2{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 80%;
+         top: 35%;
+        left: 10%;
+     }
+     .btn3{
+        display: flex;
+    justify-content: center;
+        position: absolute;
+        width: 80%;
+         top: 45%;
+        left: 10%;
+     }
+     .btn4{
+        display: flex;
+    justify-content: center;
+        position: absolute;
+        width: 80%;
+         top: 55%;
+        left: 10%;
+     }
+     
+}
+@media all and (min-width:768px) and (max-width:1023px){ /*태블릿*/
+
+    body{
+        margin: 2%;
+    }
+    .text1{
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+    img {
+        height:80%;
+        width:80%;
+    }
+    .hand{
+        position: absolute;
+        width: 37%;
+         height: 100;
+         top: 65%;
+        left: 45%;
+        
+     }
+     .btn1{
+        
+        display: flex;
+    justify-content: center;
+        position: absolute;
+        width: 70%;
+         top: 25%;
+        left: 10%;
+     }
+     .btn2{
+        display: flex;
+    justify-content: center;
+        position: absolute;
+        width: 70%;
+         top: 35%;
+        left: 10%;
+     }
+     .btn3{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 70%;
+         top: 45%;
+        left: 10%;
+     }
+     .btn4{
+        display: flex;
+    justify-content: center;
+        position: absolute;
+        width: 70%;
+         top: 55%;
+        left: 10%;
+     }
+     
+   
+   
+   
+}
+@media all and (min-width:1024px) { /*데스크탑*/
+    body{
+        margin: 2%;
+    }
+    .text1{
+        font-size: 50px;
+        padding: 20px 50px;
+    }
+    img {
+        height:100%;
+        width:100%;
+    }
+    .hand{
+        position: absolute;
+        /* width: 40%; */
+         top: 40%;
+        left: 60%;
+        
+     }
+     .btn1{
+        position: absolute;
+        width: 50%;
+         top: 35%;
+        left: 10%;
+     }
+     .btn2{
+        position: absolute;
+        width: 50%;
+         top: 50%;
+        left: 10%;
+     }
+     .btn3{
+        position: absolute;
+        width: 50%;
+         top: 65%;
+        left: 10%;
+     }
+     .btn4{
+        position: absolute;
+        width: 50%;
+         top: 80%;
+        left: 10%;
+     }
+     
+   
+}
+
+
+

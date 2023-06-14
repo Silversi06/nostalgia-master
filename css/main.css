@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+.title{
+    line-height:40%;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.intro1{
+    font-size: 30px;
+    text-align: center;
+}
+.intro2  {
+    font-size :20px;
+    text-align: center;
+}
+.intro3{
+    font-size :20px;
+    text-align: center;
+    line-height: 0;
+}
+button{
+    background-color: yellow;
+    border:none;
+    border-radius: 30px;    /*버튼 둥글게 만들기*/
+    width: 200px;
+    height:60px;
+    font-size: 33px;
+    text-align: center;
+    margin: auto;   /* 버튼 중간으로*/ 
+    display: block; /*위치하는 코드*/
+}
+@media (max-width:768px){
+    body{
+        
+    }
+}
+@media (min-width :768px){
+    body{
+        
+    }
+}
+@media(min-width:992px){
+    body{
+       
+    }
+}
