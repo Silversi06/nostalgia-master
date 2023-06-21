@@ -36,49 +36,52 @@ hr{
         font-size: 30px;
         padding: 0px 20px;
     }
-    img {
-        height:80%;
-        width:80%;
+    a>img {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 45px;
+        width:300px;
+        right: 30%;
     }
     .hand{
         position: absolute;
-        width: 50%;
-         height: 100;
-         top: 70%;
-        left: 60%;
+        width: 120px;
+        height: 290px;
+        top: 50%;
+        left: 40%;
         
      }
      .btn1{
         display: flex;
-        justify-content: center;
         position: absolute;
         width: 80%;
          top: 25%;
-        left: 10%;
+        left: 20%;
      }
      .btn2{
         display: flex;
         justify-content: center;
         position: absolute;
         width: 80%;
-         top: 35%;
-        left: 10%;
+         top: 32%;
+        left: 20%;
      }
      .btn3{
         display: flex;
-    justify-content: center;
+        justify-content: center;
         position: absolute;
         width: 80%;
-         top: 45%;
-        left: 10%;
+         top: 39%;
+        left: 20%;
      }
      .btn4{
         display: flex;
     justify-content: center;
         position: absolute;
         width: 80%;
-         top: 55%;
-        left: 10%;
+         top: 46%;
+        left: 20%;
      }
      
 }
@@ -91,22 +94,25 @@ hr{
         font-size: 30px;
         padding: 0px 20px;
     }
-    img {
-        height:80%;
-        width:80%;
+    a>img {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 67px;
+        width:480px;
+        right: 30%;
     }
     .hand{
         position: absolute;
         width: 37%;
-         height: 100;
-         top: 65%;
-        left: 45%;
+        height: 100%;
+        top: 40%;
+        left: 60%;
         
      }
      .btn1{
-        
         display: flex;
-    justify-content: center;
+        justify-content: center;
         position: absolute;
         width: 70%;
          top: 25%;
