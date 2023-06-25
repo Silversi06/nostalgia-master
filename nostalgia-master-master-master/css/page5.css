@@ -33,6 +33,7 @@ hr{
 
 .guide-hr{
     position: relative;
+   
 }
     
  .keyword{
@@ -42,8 +43,10 @@ hr{
     color: rgb(236, 57, 183);
     text-align: center;
  }
+
  a{
     text-decoration-line:none ;
+    color: black;
  }
     
     .result{

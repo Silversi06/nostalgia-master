@@ -26,6 +26,10 @@
     text-align: left;
     margin-left: 0;
   }
+  .nostalgia{
+    text-decoration: none;
+    color: black;
+  }
   
   @media all and (max-width: 767px) {
     /*폰*/

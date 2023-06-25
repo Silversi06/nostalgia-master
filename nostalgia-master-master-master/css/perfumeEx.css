@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.nostalgia{
+    text-decoration: none;
+    color: black;
+  }
+.back{
+    background-color: rgb(218, 235, 247);
+}
 hr{
     position: fixed;
     top : 0;
@@ -16,6 +23,7 @@ hr{
 }
 
 .title{
+
     line-height:40%;
     font-size: 30px;
     font-weight: bold;
@@ -24,11 +32,20 @@ hr{
     right: 0;
     left: 0;
 }
+a:visited{
+    text-decoration: none;
+    color: black;
+}
 
 @media all and (min-width:1024px) { /*데스크탑*/
+    
     .noteT{
         text-align: center;
         font-size: 40pt;
+        margin: 10px 110px;
+        background-color: aliceblue;
+        
+        
     
     }
     .note{
@@ -50,7 +67,13 @@ hr{
     .noteS{
         text-align: center;
         font-size: 20pt;
+        background-color: aliceblue;
+        line-height: 80px;
     }
+    .text{
+        background-color: aliceblue;
+    }
+    
     
     
 }
@@ -58,7 +81,8 @@ hr{
     .noteT{
         text-align: center;
         font-size: 40pt;
-    
+        margin: 19px 18px;
+        background-color: aliceblue;
     }
     .note{
         text-align: center;
@@ -81,6 +105,9 @@ hr{
         font-size: 15pt;
     }
     
+    .text{
+        background-color: aliceblue;
+    }
     
 }
 @media all and (max-width:767px){/*폰*/
@@ -88,28 +115,41 @@ hr{
     .noteT{
         text-align: center;
         font-size: 40pt;
-    
+        margin: 10px 20px;
+        background-color: aliceblue;
     }
     .note{
         text-align: center;
         font-size: 12pt;
         font-weight: bold;
+        background-color: aliceblue;
+        line-height: 40px;
     }
     .T-N{
         text-align: center;
         font-size: 12pt;
+        background-color: aliceblue;
+        line-height: 40px;
     }
     .M-N{
         text-align: center;
         font-size: 12pt;
+        background-color: aliceblue;
+        line-height: 40px;
     }
     .B-N{
         text-align: center;
         font-size: 12pt;
+        background-color: aliceblue;
     }
     .noteS{
         text-align: center;
         font-size: 13pt;
+        background-color: aliceblue;
+        line-height: 40px;
+    }
+    .text{
+        background-color: aliceblue;
     }
 
 

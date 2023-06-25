@@ -6,6 +6,10 @@ body {
     /* overflow: hidden; */
     height: 100%;
   }
+  .nostalgia{
+    text-decoration: none;
+    color: black;
+  }
   
   .title {
     cursor: pointer;

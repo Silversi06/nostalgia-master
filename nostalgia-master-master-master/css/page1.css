@@ -82,6 +82,10 @@
       margin-left: 60%;
     }
   }
+  .nostalgia{
+    text-decoration: none;
+    color: black;
+  }
   @media all and (max-width: 767px) {
     /*폰*/
     .phon {
