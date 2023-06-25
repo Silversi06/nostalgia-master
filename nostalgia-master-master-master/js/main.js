@@ -1,21 +1,5 @@
-// 선택된 요소들을 저장할 변수
-let selectedItems = [];
-
-// 모든 item 버튼에 클릭 이벤트 리스너 추가
-const items = document.querySelectorAll(".item");
-items.forEach((item) => {
-  item.addEventListener("click", () => {
-    // 선택된 요소를 변수에 추가
-    selectedItems.push(item.textContent);
-  });
-});
-
-// 결과 보여주는 버튼에 클릭 이벤트 리스너 추가
-const showButton = document.getElementById("showButton");
-showButton.addEventListener("click", () => {
-  // 선택된 요소들을 누적하여 보여줌
-  const resultDiv = d// page1 html js
-  function goToPage2(selectedSeason, selectedAnswer) {
+// page1 html js
+function goToPage2(selectedSeason, selectedAnswer) {
     const queryParams = {
       season: selectedSeason,
       answer: selectedAnswer,
@@ -370,9 +354,4 @@ showButton.addEventListener("click", () => {
       window.location.href = result + "?" + queryString;
     }
   }
-  ocument.getElementById("result");
-  resultDiv.textContent = selectedItems.join(", ");
-
-  // 숨겨진 요소 보이도록 스타일 변경
-  resultDiv.style.display = "block";
-});
+  
