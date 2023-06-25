@@ -1,167 +1,159 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body {
+  }
+  body {
     overflow: hidden;
     height: 100%;
   }
-
-  .title{
-    line-height:40%;
+  
+  .title {
+    cursor: pointer;
+    line-height: 40%;
     font-size: 30px;
     font-weight: bold;
     position: fixed;
-    top : 30px;
+    top: 30px;
     right: 0;
     left: 0;
-    
-}
-
-hr{
+  }
+  
+  hr {
     position: fixed;
-    top : 0;
+    top: 0;
     right: 0;
     left: 0;
     text-align: left;
     margin-left: 0;
-}
-
-
-@media all and (max-width:767px){/*폰*/
-    body{
-        margin: 2%;
+  }
+  
+  @media all and (max-width: 767px) {
+    /*폰*/
+    body {
+      margin: 2%;
     }
-    .text1{
-        font-size: 30px;
-        /* text-align: center; */
-        padding: 0px 80px;
+    .text1 {
+      font-size: 30px;
+      /* text-align: center; */
+      padding: 0px 80px;
     }
-    a>img {
-        width : 170px;
-        height : 250px;  
+    a > img {
+      width: 170px;
+      height: 250px;
     }
-    div>p{
-        text-align: center;
-        font-size: 20px;
+    div > p {
+      text-align: center;
+      font-size: 20px;
     }
-      .btn1{
-        position: absolute;
-         top: 200px;
-        left: 15%;
-     }
-     .btn2{ 
-        position: absolute;
-        top: 200px;
-        left: 55%;
-     }
-     .btn3{
-        position: absolute;
-         top: 550px;
-        left: 15%;
-     }
-     .btn4{ 
-        position: absolute;
-         top: 550px;
-        left: 55%;
-     } 
-     
-}
-@media all and (min-width:768px) and (max-width:1023px){ /*태블릿*/
-
-    body{
-        margin: 2%;
+    .btn1 {
+      position: absolute;
+      top: 200px;
+      left: 15%;
     }
-    .text1{
-        font-size: 40px;
-        /* text-align: center; */
-        padding: 0px 170px;
+    .btn2 {
+      position: absolute;
+      top: 200px;
+      left: 55%;
     }
-    a>img {
-        width : 230px;
-        height : 330px;  
+    .btn3 {
+      position: absolute;
+      top: 550px;
+      left: 15%;
     }
-    div>p{
-        text-align: center;
-        font-size: 20px;
+    .btn4 {
+      position: absolute;
+      top: 550px;
+      left: 55%;
     }
-      .btn1{
-        position: absolute;
-         top: 20%;
-        left: 20%;
-     }
-     .btn2{ 
-        position: absolute;
-        top: 20%;
-        left: 50%;
-     }
-     .btn3{
-        position: absolute;
-         top: 60%;
-        left: 20%;
-     }
-     .btn4{ 
-        position: absolute;
-         top: 60%;
-        left: 50%;
-     } 
-    
-   
-   
-}
-@media all and (min-width:1024px) { /*데스크탑*/
-    body{
-        margin: 2%;
+  }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    /*태블릿*/
+  
+    body {
+      margin: 2%;
     }
-    
-    .text1{
-        font-size: 50px;
-        padding: 0px 20px;
+    .text1 {
+      font-size: 40px;
+      /* text-align: center; */
+      padding: 0px 170px;
     }
-    a>img {
-        position: relative;
-        height:50%;
-        width:40%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-125%);
-        
+    a > img {
+      width: 230px;
+      height: 330px;
     }
-    div>p{
-        position: relative;
-        font-size:30px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-36%);
-        
-     }
-     .btn1{
-        position: absolute;
-        width: 50%;
-         top: 30%;
-        left: 7%;
-     }
-     .btn2{
-        position: absolute;
-        width: 50%;
-         top: 30%;
-        left: 29%;
-     }
-     .btn3{
-        position: absolute;
-        width: 50%;
-         top:30%;
-        left: 51%;
-     }
-     .btn4{
-        position: absolute;
-        width: 50%;
-         top: 30%;
-        left: 73%;
-     }
-    
-     
-   
-}
-
-
+    div > p {
+      text-align: center;
+      font-size: 20px;
+    }
+    .btn1 {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+    }
+    .btn2 {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+    }
+    .btn3 {
+      position: absolute;
+      top: 60%;
+      left: 20%;
+    }
+    .btn4 {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    /*데스크탑*/
+    body {
+      margin: 2%;
+    }
+  
+    .text1 {
+      font-size: 50px;
+      padding: 0px 20px;
+    }
+    a > img {
+      position: relative;
+      height: 50%;
+      width: 40%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-125%);
+    }
+    div > p {
+      position: relative;
+      font-size: 30px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-36%);
+    }
+    .btn1 {
+      position: absolute;
+      width: 50%;
+      top: 30%;
+      left: 7%;
+    }
+    .btn2 {
+      position: absolute;
+      width: 50%;
+      top: 30%;
+      left: 29%;
+    }
+    .btn3 {
+      position: absolute;
+      width: 50%;
+      top: 30%;
+      left: 51%;
+    }
+    .btn4 {
+      position: absolute;
+      width: 50%;
+      top: 30%;
+      left: 73%;
+    }
+  }
+  

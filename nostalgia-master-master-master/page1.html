@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/page1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/page1.css" />
     <title>page1</title>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        
-        <hr style="border: 5px solid #6ba6ff;" width="100%" height="100%" line-height="210">
-        <hr style="border: 5px solid #1991E9;" width="30%" height="100%" line-height="210">
-       
-        <p class="title">&nbsp nostalgia</p><!--제목-->
-       <br><br>
-       <br>
-      
-
-       <br><br>
-       <div>
-            <div class="phon">
-                <img src="phon.png" height="830px">
-
-            </div>
-       </div>
-
-       <div>
-        <div class="spring">
-            <a href="page2.html"><img src="spring.png" width="250px"></a>
-
-        </div>
-   </div>
-
-   <div>
-     <div class="summer">
-        
-        <a href="page2.html"><img src="summer.png" width="250px"></a>
-
-        </div>
+      <hr
+        style="border: 5px solid #6ba6ff"
+        width="100%"
+        height="100%"
+        line-height="210"
+      />
+      <hr
+        style="border: 5px solid #1991e9"
+        width="30%"
+        height="100%"
+        line-height="210"
+      />
+      <p class="title" onclick="location.href='main.html'">&nbsp nostalgia</p>
+      <!--제목-->
+      <br /><br /><br /><br /><br />
+      <div class="phon">
+        <img src="img/phon.png" height="830px" />
+      </div>
+      <div class="spring">
+        <a
+          ><img
+            src="img/spring.png"
+            width="250px"
+            name="question1"
+            value="spring"
+            onclick="goToPage2('spring')"
+        /></a>
+      </div>
+      <div class="summer">
+        <a
+          ><img
+            src="img/summer.png"
+            width="250px"
+            name="question1"
+            value="summer"
+            onclick="goToPage2('summer')"
+        /></a>
+      </div>
+      <div class="fall">
+        <a
+          ><img
+            src="img/fall.png"
+            width="250px"
+            name="question1"
+            value="fall"
+            onclick="goToPage2('fall')"
+        /></a>
+      </div>
+      <div class="winter">
+        <a
+          ><img
+            src="img/winter.png"
+            width="250px"
+            name="question1"
+            value="winter"
+            onclick="goToPage2('winter')"
+        /></a>
+      </div>
     </div>
 
-    <div>
-        <div class="fall">
-            <a href="page2.html"><img src="fall.png" width="250px"></a>
-
-        </div>
-   </div>
-
-    <div>
-        <div class="winter">
-            <a href="page2.html"><img src="winter.png" width="250px"></a>
-
-        </div>
-   </div>
-    
-
-
-    </body>
-    
-    
-  
+    <script src="js/main.js"></script>
+  </body>
 </html>

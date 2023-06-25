@@ -1,120 +1,115 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-hr{
+  }
+  hr {
     position: fixed;
-    top : 0;
+    top: 0;
     right: 0;
     left: 0;
     text-align: left;
     margin-left: 0;
-}
-body {
-    overflow: hidden;/*스크롤*/
+  }
+  body {
+    /* overflow: hidden; 스크롤 */
     height: 100%;
-}
-.title{
-    line-height:40%;
+  }
+  .title {
+    cursor: pointer;
+    line-height: 40%;
     font-size: 30px;
     font-weight: bold;
     position: fixed;
-    top : 30px;
+    top: 30px;
     right: 0;
     left: 0;
-}
-
-@media all and (min-width:1024px) { /*데스크탑*/
-    .spring{
-        position: absolute;
-        /* left: 400px; */
-        top: 100px;
-        margin-left: 42%;
-    }
-    .summer{
-        position: absolute;
-        /* left: 400px; */
-        top: 100px;
-        margin-left: 70%;
-    }
-    .fall{
-        position: absolute;
-        /* left: 400px; */
-        top: 500px;
-        margin-left: 42%;
-    }
-    .winter{
-        position: absolute;
-        /* left: 400px; */
-        top: 500px;
-        margin-left: 70%;
-    }
-    
-}
-@media all and (min-width:768px) and (max-width:1023px){ /*태블릿*/
+  }
   
-    a>img{
-        width: 159px;
-        height: auto;
+  @media all and (min-width: 1024px) {
+    /*데스크탑*/
+    .spring {
+      position: absolute;
+      /* left: 400px; */
+      top: 100px;
+      margin-left: 42%;
     }
-    .spring{
-        
-        position: absolute;
-        top: 50px;
-        margin-left: 60%;
-       
-        
+    .summer {
+      position: absolute;
+      /* left: 400px; */
+      top: 100px;
+      margin-left: 70%;
     }
-    .summer{
-        position: absolute;
-        top: 270px;
-        margin-left: 60%;
+    .fall {
+      position: absolute;
+      /* left: 400px; */
+      top: 500px;
+      margin-left: 42%;
     }
-
-    .fall{
-        position: absolute;
-        top: 490px;
-        margin-left: 60%;
+    .winter {
+      position: absolute;
+      /* left: 400px; */
+      top: 500px;
+      margin-left: 70%;
     }
-    .winter{
-        position: absolute;
-        /* left: 400px; */
-        top: 720px;
-        margin-left: 60%;
+  }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    /*태블릿*/
+  
+    a > img {
+      width: 159px;
+      height: auto;
     }
-    
-    
-}
-@media all and (max-width:767px){/*폰*/
-.phon{
-    text-align: center;
-}
-a>img{
-    width: 74pt;
-    height: auto;
-   
-}
-.spring{
-    position: absolute;
-    top: 580px;
-    left: 25%;
-}
-.summer{
-    position: absolute;
-    top: 580px;
-    left: 53%;
-}
-.fall{
-    position: absolute;
-    top: 740px;
-    left: 25%;
-    
-}
-.winter{
-    position: absolute;
-    top: 740px;
-    left: 53%;
-}
-
-
-}
+    .spring {
+      position: absolute;
+      top: 50px;
+      margin-left: 60%;
+    }
+    .summer {
+      position: absolute;
+      top: 270px;
+      margin-left: 60%;
+    }
+  
+    .fall {
+      position: absolute;
+      top: 490px;
+      margin-left: 60%;
+    }
+    .winter {
+      position: absolute;
+      /* left: 400px; */
+      top: 720px;
+      margin-left: 60%;
+    }
+  }
+  @media all and (max-width: 767px) {
+    /*폰*/
+    .phon {
+      text-align: center;
+    }
+    a > img {
+      width: 74pt;
+      height: auto;
+    }
+    .spring {
+      position: absolute;
+      top: 580px;
+      left: 25%;
+    }
+    .summer {
+      position: absolute;
+      top: 580px;
+      left: 53%;
+    }
+    .fall {
+      position: absolute;
+      top: 740px;
+      left: 25%;
+    }
+    .winter {
+      position: absolute;
+      top: 740px;
+      left: 53%;
+    }
+  }
+  
