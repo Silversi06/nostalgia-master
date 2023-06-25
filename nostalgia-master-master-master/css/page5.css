@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+   
+    top : 10;
+    right: 0;
+    left: 0;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+.title{
+    line-height:40%;
+    font-size: 30px;
+    font-weight: bold;
+    top : 30px;
+    right: 0;
+    left: 0;
+}
+.result{
+    line-height:40%;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top : 90px;
+    right: 0;
+    left: 0;
+}
+
+.guide-hr{
+    position: relative;
+}
+    
+ .keyword{
+    line-height:50%;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(236, 57, 183);
+    text-align: center;
+ }
+ a{
+    text-decoration-line:none ;
+ }
+    
+    .result{
+        text-align: center;
+    }
+    
+    @media screen and (max-width:480px){/*폰*/
+        .keyword{
+            font-size: 300%;
+        }
+        
+    }
+    
+    @media all and (min-width:1024px) { /*데스크탑*/
+       img{
+        width: 500px;
+        height: auto;
+        position: relative;
+        left: 0px;
+       }
+       .keyword{
+        position: absolute;
+        left: 50%;
+        top: 250pt;
+      } 
+      .box{
+       position: relative;
+      }
+        
+    }
+   
+
